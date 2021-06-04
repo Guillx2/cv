@@ -1,0 +1,26 @@
+.navbar-container {
+  background-color: rgba(0, 0, 0, 0.473);
+  color: white;
+  height: 50px;
+  margin: 0;
+  padding: 0px;
+  font-size: 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.185);
+  position: sticky;
+  top: 0;
+}
+
+.navbar-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  height: 100%;
+  margin: auto;
+  align-items: center;
+}
+
+.navbar-list-option a {
+  text-decoration: none;
+  color: white;
+}
